@@ -1,6 +1,6 @@
 ## TIOBE Index for 2024
 
-| Rank | Previous Rank | Image | Name | Rating | Change | Link |
+| Rank | Previous Rank | Logo | Name | Rating | Change | Link |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 1 | ![Image](https://www.tiobe.com/wp-content/themes/tiobe/tiobe-index/images/Python.png) | Python | 15.16% | -0.32% | [Link Python](https://m-korniak.github.io/python) |
 | 2 | 2 | ![Image](https://www.tiobe.com/wp-content/themes/tiobe/tiobe-index/images/C.png) | C | 10.97% | -4.41% | [Link C](https://m-korniak.github.io/c) |
