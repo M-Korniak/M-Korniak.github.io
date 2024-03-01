@@ -10,4 +10,5 @@ in addition to facilities for low-level memory manipulation for making things li
 to make operating systems like Linux or Windows. It is almost always implemented as a compiled language, 
 and many vendors provide C++ compilers, including the Free Software Foundation, 
 LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.
+
 ___

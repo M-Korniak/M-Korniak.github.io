@@ -7,4 +7,5 @@ By design, C's features cleanly reflect the capabilities of the targeted CPUs. I
 found lasting use in operating systems, device drivers, and protocol stacks, but its use 
 in application software has been decreasing. C is commonly used on computer architectures that 
 range from the largest supercomputers to the smallest microcontrollers and embedded systems.
+
 ___

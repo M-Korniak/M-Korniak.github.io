@@ -9,4 +9,5 @@ that can run on any Java virtual machine (JVM) regardless of the underlying comp
 Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides 
 dynamic capabilities (such as reflection and runtime code modification) that are typically not available in
 traditional compiled languages.
+
 ___

@@ -9,4 +9,5 @@ article uses "Visual Basic [.NET]" to refer to all Visual Basic languages releas
 in order to distinguish between them and the classic Visual Basic. Along with C# and F#, it is one of 
 the three main languages targeting the .NET ecosystem. Microsoft updated its VB language strategy on 6 
 February 2023, stating that VB is a stable language now and Microsoft will keep maintaining it.
+
 ___
