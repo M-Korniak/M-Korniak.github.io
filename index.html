@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Michal Korniak</title>
-  <meta name="description" content="Michal Korniak is a Master's student at ETH Zurich working on [field].">
+  <meta name="description" content="Michal Korniak is a Master's student at ETH Zurich working on reinforcement learning and robot learning.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -60,6 +60,8 @@
     .pub .authors, .pub .venue { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
     .pub .authors b { color: var(--ink); font-weight: 500; }
     .pub .venue i { color: var(--green-dark); }
+    .note { font-size: 13px; color: var(--muted); margin: -8px 0 0; }
+    .badge { display: inline-block; font-size: 11px; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: #fff; background: var(--green); padding: 1px 7px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
     .pub .tags { margin-top: 6px; display: flex; gap: 10px; font-size: 13px; }
 
     /* News */
@@ -95,12 +97,11 @@
   <header>
     <div>
       <h1>Michal Korniak</h1>
-      <p class="role">Master's Student · ETH Zurich</p>
+      <p class="role">M.Sc. Student in Data Science · ETH Zurich</p>
       <div class="links">
-        <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a>
-        <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a>
+        <a href="https://scholar.google.com/citations?user=Yi5a9uAAAAAJ&amp;hl=en">Google Scholar</a>
         <a href="https://github.com/M-Korniak">GitHub</a>
-        <a href="files/cv.pdf">CV</a>
+        <a href="files/resume.pdf">CV</a>
         <a href="mailto:mkorniak@ethz.ch">Email</a>
       </div>
     </div>
@@ -109,39 +110,59 @@
 
   <section id="about">
     <h2>About</h2>
-    <p>I'm a Master's student in [program] at ETH Zurich, working with [Advisor / Lab]. My work focuses on [one-sentence summary of your research question and why it matters].</p>
-    <p>Before this, I [previous degree / position]. I'm always happy to talk about collaborations — feel free to reach out.</p>
+    <p>I'm a Master's student in Data Science (machine learning focus) at the Department of Computer Science, ETH Zurich. I work on reinforcement learning: when and why replay strategies matter, how to learn representations from action sequences, and how RL post-training can scale the improvement of generalist robot policies.</p>
+    <p>In 2026 I was a research assistant at ETH Zurich with Max Simchowitz and Andrew Wagenmaker, studying multi-task RL post-training for Vision-Language-Action (VLA) robot policies. Before that, I completed my B.Sc. in Computer Science at the University of Warsaw (summa cum laude, ranked 2nd of 123), where I worked with Piotr Skowron on the ERC project PRO-DEMOCRATIC on proportional and fair decision-making algorithms. I also interned as a software engineer at Microsoft.</p>
     <ul class="interests">
-      <li>Research topic one</li>
-      <li>Research topic two</li>
-      <li>Method or area</li>
+      <li>Reinforcement learning</li>
+      <li>Robot learning</li>
+      <li>Representation learning</li>
+      <li>Computational social choice</li>
     </ul>
   </section>
 
   <section id="publications">
     <h2>Publications</h2>
+    <p class="note">* equal contribution</p>
 
     <div class="year">2026</div>
     <article class="pub">
-      <p class="title">Title of Your Most Recent Paper</p>
-      <p class="authors"><b>Michal Korniak</b>, Coauthor One, Coauthor Two</p>
-      <p class="venue"><i>Journal or Conference Name</i>, 2026</p>
+      <p class="title">Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement</p>
+      <p class="authors"><b>Michal Korniak</b>*, Marco Bagatella*, Ralf Römer*, et al., Max Simchowitz, Andrew Wagenmaker</p>
+      <p class="venue"><i>Under review at ICLR 2027</i></p>
       <div class="tags">
-        <a href="papers/paper-2026.pdf">PDF</a>
-        <a href="https://doi.org/10.xxxx/xxxxx">DOI</a>
-        <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv</a>
-        <a href="https://github.com/M-Korniak/repo">Code</a>
+        <a href="https://arxiv.org/abs/2611.06905">arXiv</a>
+        <a href="https://arxiv.org/pdf/2611.06905">PDF</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <p class="title">Three Steps at a Time: Learning Representations from Action Sequences in Contrastive RL</p>
+      <p class="authors"><b>Michal Korniak</b>*, Kamil Dybek*, Benjamin Eysenbach, Marco Bagatella, Michał Bortkiewicz</p>
+      <p class="venue"><i>NeurIPS 2026 Workshop: From Pretrained Representations to Acting Agents</i> · Under review at ICLR 2027</p>
+      <div class="tags">
+        <a href="https://arxiv.org/abs/2608.30640">arXiv</a>
+        <a href="https://arxiv.org/pdf/2608.30640">PDF</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <p class="title">When Does Non-Uniform Replay Matter in Reinforcement Learning?</p>
+      <p class="authors"><b>Michal Korniak</b>*, Mikołaj Czarnecki*, Yarden As, Piotr Miłoś, Pieter Abbeel, Michal Nauman</p>
+      <p class="venue"><i>NeurIPS 2026</i> <span class="badge">Spotlight</span></p>
+      <div class="tags">
+        <a href="https://arxiv.org/abs/2605.10236">arXiv</a>
+        <a href="https://arxiv.org/pdf/2605.10236">PDF</a>
       </div>
     </article>
 
     <div class="year">2025</div>
     <article class="pub">
-      <p class="title">Title of an Earlier Paper</p>
-      <p class="authors">Coauthor One, <b>Michal Korniak</b></p>
-      <p class="venue"><i>Journal Name</i>, 12(3), 2025</p>
+      <p class="title">Fair Indivisible Payoffs through Shapley Value</p>
+      <p class="authors">Mikołaj Czarnecki, <b>Michal Korniak</b>, Oskar Skibski, Piotr Skowron</p>
+      <p class="venue"><i>arXiv preprint</i>, 2025</p>
       <div class="tags">
-        <a href="papers/paper-2025.pdf">PDF</a>
-        <a href="https://doi.org/10.xxxx/xxxxx">DOI</a>
+        <a href="https://arxiv.org/abs/2510.24906">arXiv</a>
+        <a href="https://arxiv.org/pdf/2510.24906">PDF</a>
       </div>
     </article>
   </section>
@@ -149,9 +170,11 @@
   <section id="news">
     <h2>News</h2>
     <ul class="news">
-      <li><time>Nov 2026</time><span>Paper accepted at [Venue].</span></li>
-      <li><time>Sep 2026</time><span>Gave a talk at [Workshop / Seminar].</span></li>
-      <li><time>Jun 2026</time><span>Started a research visit at [Place].</span></li>
+      <li><time>Nov 2026</time><span>New preprint: <a href="https://arxiv.org/abs/2611.06905">RL Enables Scaling Generalist Robot Policy Improvement</a>.</span></li>
+      <li><time>2026</time><span><a href="https://arxiv.org/abs/2605.10236">Non-Uniform Replay</a> accepted at NeurIPS 2026 as a spotlight. Also named a NeurIPS 2026 Top Reviewer.</span></li>
+      <li><time>Aug 2026</time><span>New preprint: <a href="https://arxiv.org/abs/2608.30640">Three Steps at a Time</a>.</span></li>
+      <li><time>May 2026</time><span>Started as a research assistant at ETH Zurich with Max Simchowitz and Andrew Wagenmaker.</span></li>
+      <li><time>2025</time><span>Started my M.Sc. in Data Science at ETH Zurich.</span></li>
     </ul>
   </section>
 </main>
